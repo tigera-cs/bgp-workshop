@@ -14,8 +14,8 @@ Based on [Kubernetes-Networking-Training / 3.Cross-Node-Connectivity](https://gi
 |---|---|---|
 | `bastion` | `10.0.1.10` | Outside the cluster. Runs `kubectl` and `calicoctl`, and a standalone BIRD instance that acts as the upstream BGP router (AS `64512`). Also used to test connectivity from outside the cluster. |
 | `control1` | `10.0.1.20` | Kubernetes control-plane node |
-| `worker1` | `10.0.1.31` | Kubernetes worker node |
-| `worker2` | `10.0.1.30` | Kubernetes worker node |
+| `worker1` | `10.0.1.30` | Kubernetes worker node |
+| `worker2` | `10.0.1.31` | Kubernetes worker node |
 
 | CIDR | Purpose |
 |---|---|
